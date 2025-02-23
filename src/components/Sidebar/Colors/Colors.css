@@ -1,0 +1,11 @@
+.colors_container {
+	margin-left: -20px;
+}
+
+.colors_title {
+	margin-top: 2rem;
+}
+
+.all {
+	background: linear-gradient(blue, crimson);
+}

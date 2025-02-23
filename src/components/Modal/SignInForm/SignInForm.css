@@ -1,0 +1,7 @@
+.modal_buttons_container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 1rem 2rem 0;
+}

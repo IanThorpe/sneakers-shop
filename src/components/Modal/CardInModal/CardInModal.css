@@ -1,0 +1,54 @@
+.ant-drawer-body {
+	padding: 1rem;
+	justify-content: space-between;
+	position: relative;
+}
+
+.modal_card {
+	display: flex;
+	gap: 1rem;
+	margin: 20px;
+	border: 2px solid #ededed;
+	padding: 20px;
+	align-items: center;
+}
+
+.modal_card_img {
+	width: 75px;
+	height: 100%;
+}
+
+.modal_cart_icon,
+.modal_trash_icon {
+	scale: 2;
+	margin: 0 1rem 0 auto;
+	transition: all .3s;
+	cursor: pointer;
+}
+
+.modal_trash_icon:hover {
+	scale: 2.5;
+	color: rgb(223, 51, 51);
+	transition: all .3s;
+}
+
+.modal_total {
+	margin-top: auto;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	bottom: 30px;
+	left: 50px;
+	font-size: 32px;
+	width: 500px;
+	gap: 1rem;
+}
+.modal_total_price {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.modal_button {
+
+}

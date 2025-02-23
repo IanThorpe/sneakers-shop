@@ -1,0 +1,73 @@
+.sidebar_title {
+	font-size: 22px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.sidebar_label_container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.sidebar_label_container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	width: 10%;
+}
+
+.check_mark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 20px;
+	width: 20px;
+	background-color: #eee;
+	border-radius: 50%;
+	transition: all .2s;
+}
+
+.check_mark:hover {
+	transition: all .2s;
+
+}
+
+.sidebar_label_container:hover input ~ .check_mark {
+	background-color: #ccc;
+}
+
+.sidebar_label_container input:checked ~ .check_mark {
+	background-color: #2196f3;
+}
+
+.check_mark::after {
+	content: '';
+	display: none;
+	position: absolute;
+}
+
+.sidebar_label_container input:checked ~ .check_mark::after {
+	display: block;
+}
+
+.sidebar_label_container .check_mark::after {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.line {
+	margin-top: 3rem;
+	border-color: #f7f7f7;
+}

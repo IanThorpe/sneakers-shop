@@ -1,0 +1,10 @@
+.recommended_buttons {
+	display: flex;
+	gap: 5px;
+	margin-left: 20rem;
+}
+
+.recommended_title {
+	margin: 20px 0 20px 20rem;
+	font-size: 20px;
+}
